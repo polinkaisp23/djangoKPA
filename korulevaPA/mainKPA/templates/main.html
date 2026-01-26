@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Каталог защитных шлемов</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<header>
+    <h1>Каталог защитных шлемов</h1>
+    <p>Профессиональные средства индивидуальной защиты для строительства</p>
+</header>
+
+<section class="categories">
+    <div class="category">Строительные каски</div>
+    <div class="category">С фонарём</div>
+    <div class="category">С вентиляцией</div>
+    <div class="category">Зимние</div>
+</section>
+
+<main class="catalog">
+
+    <article class="card">
+        <img src="https://basket-12.wbbasket.ru/vol1706/part170635/170635601/images/big/1.webp" alt="Каска СТ-01">
+        <h3>Каска строительная СТ-01</h3>
+        <ul>
+            <li>Материал: HDPE</li>
+            <li>Цвет: белый</li>
+            <li>Температура: −20…+50 °C</li>
+        </ul>
+        <div class="price">1 990 ₽</div>
+        <button>В корзину</button>
+    </article>
+
+    <article class="card">
+        <img src="https://avatars.mds.yandex.net/get-mpic/15219702/2a000001979935a0cb4d44c418498f35de3c/orig" alt="Каска СТ-02">
+        <h3>Каска строительная СТ-02</h3>
+        <ul>
+            <li>Материал: ABS</li>
+            <li>Вентиляция</li>
+            <li>Для длительных работ</li>
+        </ul>
+        <div class="price">2 490 ₽</div>
+        <button>В корзину</button>
+    </article>
+
+    <article class="card">
+        <img src="https://avatars.mds.yandex.net/get-mpic/7498982/img_id3932165210737065063.jpeg/orig" alt="Шлем СТ-03">
+        <h3>Шлем защитный СТ-03</h3>
+        <ul>
+            <li>Ударопрочный пластик</li>
+            <li>Крепление для фонаря</li>
+            <li>Плохая видимость</li>
+        </ul>
+        <div class="price">3 290 ₽</div>
+        <button>В корзину</button>
+    </article>
+
+    <article class="card">
+        <img src="https://avatars.mds.yandex.net/i?id=f9fee84a9390af0446b13cfefa78cb57_l-4955727-images-thumbs&n=13"Шлем СТ-04">
+        <h3>Шлем зимний СТ-04</h3>
+        <ul>
+            <li>Композитный пластик</li>
+            <li>Утеплённая вставка</li>
+            <li>До −40 °C</li>
+        </ul>
+        <div class="price">3 990 ₽</div>
+        <button>В корзину</button>
+    </article>
+
+</main>
+
+<footer>
+    © 2026 Производство защитных шлемов
+</footer>
+
+</body>
+</html>
